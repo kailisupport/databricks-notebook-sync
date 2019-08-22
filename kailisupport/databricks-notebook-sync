@@ -1,0 +1,557 @@
+# Databricks notebook source
+dbutils.fs.unmount("/mnt/kaimount")
+
+# COMMAND ----------
+
+df.show()
+
+# COMMAND ----------
+
+df = spark.read.text("mnt/kaimount/ReadMe_Census.txt")
+
+# Databricks notebook source
+dbutils.fs.unmount("/mnt/kaimount")
+
+# COMMAND ----------
+
+df.show()
+
+# COMMAND ----------
+
+df = spark.read.text("mnt/kaimount/ReadMe_Census.txt")
+
+# COMMAND ----------
+
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+
+
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+
+
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+)
+
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+
+
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+dbutils.fs.mount(
+  source = "wasbs://kaicontainer@kaiblob.blob.core.windows.net",
+  mount_point = "/mnt/kaimount", 
+  extra_configs = {"fs.azure.account.key.kaiblob.blob.core.windows.net":dbutils.secrets.get(scope = "databricks-kai-secret-scope", key = "DbksSecretKey")}
+)
+
+Lorem ipsum dolor sit amet, odio singulis ut nec, persius eripuit luptatum te eum, an nec enim postea minimum. Ex vel voluptua accommodare conclusionemque, voluptatibus concludaturque ad nam. An quo nostro iisque, elit perpetua no est. Sea in modo propriae signiferumque, tantas consul petentium te nec, pro ex exerci signiferumque. Per euismod dissentias eu, esse audire mediocritatem an qui. Populo tacimates complectitur mel ut, illud reque expetenda ut qui.
+
+Dignissim disputando ius ad. Et mutat corrumpit nam, vis ferri malorum vivendo at. Detracto mediocrem consequat ad nam, sed atqui necessitatibus te. Ut ius sint illud expetendis, populo luptatum ius ad. Euismod sententiae ex ius, ex vis enim quidam. In has harum insolens, at tacimates perpetua nam.
+
+At sea hinc facete ancillae, eos erant iudico bonorum ne, nec affert fabellas suscipiantur in. Consul noluisse expetendis eu usu. Per dolorem volutpat et, mea unum fabellas et, primis forensibus voluptatum et qui. Magna recusabo eos at, an qui erat nobis sanctus, nulla dolore has ex.
+
+Te case aliquip aperiri usu, modo eruditi adversarium vis eu, et dolore vivendo consequuntur ius. Wisi sententiae scriptorem id sed, mel id fugit possit principes. Ne essent vituperatoribus his, vis te autem nostro pericula, est cu quaeque omittantur. Quas dignissim ex vel. Errem legendos accusata at sit, eu mea feugiat assentior efficiendi. Vis errem volumus salutatus ex.
+
+Latine aperiri pertinacia eu sed. Virtute probatus contentiones in eos. Te vel solum vocibus intellegat, atqui maiorum epicurei pro ea. Munere omnesque lucilius vel an, in usu sumo dicam, odio natum mea ad. In has tincidunt disputationi, unum postulant cotidieque usu ne.
